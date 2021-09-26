@@ -1,27 +1,24 @@
 #include <iostream>
 namespace std {
-	int main() {
-		int x;
-		int y;
-		cout << "unesite trenutan mjesec";
-		cin >> x;
-		cout << "unesite trenutan dan";
-		cin >> y;
-		if (x < 1, x > 12) cout << "unesite validan mjesec";
-		if (y < 1, y > 31) cout << "unesite validan dan";
-		return 0;
-		if (x = 12, y > 21) (x <= 3, y <= 21);
-		cout << "godisnje doba je zima";
-		if (x >= 3, y >= 22) (x <= 6, y <= 21);
-		cout << "godisnje doba je proljece";
-		if (x >= 6, y >= 22) (x <= 9, y <= 23);
-		cout << "godisnje doba je ljeto";
-		if (x >= 9, y >= 24) (x = 12, y <= 21);
-		cout << "godisnje doba je jesen";
-		return 0;
-
-
-
+int main () {
+int dan;
+int mjesec;
+cout << "unesite godinu i mjesec";
+cin >> dan >> mjesec;
+if (dan > 31) (dan < 1);
+cout << "unesite validan dan";
+if (mjesec > 12) (mjesec < 1);
+cout << "unesite validan mjesec";
+return 0;
+if (mjesec = 12);
+cout << "godisnje doba je zima, ako je dan poslije 21. decembra";
+if (mjesec = 3);
+cout << "godisnje doba je proljece, ako je dan poslije 21. marta";
+if (mjesec = 6);
+cout << "godisnje doba je ljeto, ako je dan poslije 21. juna";
+if (mjesec = 9);
+cout << "godisnje doba je jesen, ako je dan poslije 23. septembra";
+return 0;
 
 
 			
