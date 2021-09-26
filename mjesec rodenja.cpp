@@ -1,13 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main() {
-    int GodRodjenja, Starost, Mjeseci;
-    int TrenutnaGodina;
-    int Mjesec;
-    cout << "Koje ste godine rodjeni? " << endl;
-    cin >> GodRodjenja;
-    cout << "Koja je trenutna godina? " << endl;
-    cin >> TrenutnaGodina;
-    Starost = TrenutnaGodina - GodRodjenja;
-    cout << "Trenutno imate " << Starost << endl;
+    int mjesec, godina;
+    cout << "unesite mjesec i godinu rodjenja" << endl;
+    cin >> mjesec >> godina;
+    int a = 2021 - godina;
+    int b = 9 - mjesec;
+    if (b = -1);
+    cout << "imate" << a - 1 << "godina i 7 mjeseci" << endl;
+    if (b = -2);
+    cout << "imate" << a - 2 << "godina i 6 mjeseci" << endl;
+    if (b = -3);
+    cout << "imate" << a - 3 << "godina i 5 mjeseci" << endl;
+    if (b > 0);
+    cout << "imate" << a << "godina i" << b << "mjeseci" << endl;
+    else if;
+    cout << "pogrijesili ste" << endl ;
     return 0;
+} 
